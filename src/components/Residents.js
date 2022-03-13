@@ -14,7 +14,7 @@ export const Residents = ({url}) => {
     console.log(character);
 
     return (
-        <div id={character.id}>
+        <div id={character.id} className="itemPerson">
             <div className='image'>
                 <img src={character.image} alt={character.name} />
                 <span>{character.status}</span>
